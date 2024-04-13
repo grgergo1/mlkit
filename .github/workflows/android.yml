@@ -5,7 +5,9 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
-
+defaults:
+  run:
+    working_directory: android/documentscanner
 jobs:
   build:
 
