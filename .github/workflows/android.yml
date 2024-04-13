@@ -7,7 +7,7 @@ on:
     branches: [ "master" ]
 defaults:
   run:
-    working_directory: android/documentscanner
+    working-directory: android/documentscanner
 jobs:
   build:
 
@@ -31,4 +31,4 @@ jobs:
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4.3.1
       with:
-        path: android/documentscanner        
+        path: .        
